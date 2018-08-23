@@ -16,14 +16,14 @@
     <div class="jumbotron">
         <h1 class="display-4">Travel Destination Finder</h1>
         <p>Answer the following questions to find out where you should book your next vacation.</p>
-        <a class="btn btn-primary btn-lg" href="/home" role="button">Go Home</a>
+        
     </div>
     <div class="container">
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8">
                 <div class="card mb-3">
-                    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                    
                     <div class="card-body">
                         <h5 class="card-title">Travel Survey Instructions</h5>
                         <p class="card-text">You will give question a rank from 1 - 5 depending on how much you agree with the statement.</p>
@@ -203,6 +203,8 @@
         console.log(data);
         $("#countryName").text(data.name);
         $("#countryDesc").text(data.description);
+        //to redirect the page to the beginning--need to tweak it
+      //  res.redirect("/");
     })
 })
     </script>
