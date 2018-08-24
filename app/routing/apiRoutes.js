@@ -13,3 +13,11 @@ app.get("/api/survey", function(req, res) {
     res.json(newSurvey);
   });
 };
+
+ //results
+ app.post("/countries", function(req, res){
+      //push in user's info into an array
+      //push in countries' info into an array
+    console.log(req.body);
+      
+  })
